@@ -9,3 +9,10 @@ def test(clair,cle):
         A+=1
     print(C)
     []
+    
+    def rsa(clair,e=23,n=52635239):
+    M=''
+    L=len(str(clair))
+    for a in range(L):
+        M+=str(ord(clair[a]))
+    print(M)
